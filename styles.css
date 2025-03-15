@@ -1,0 +1,163 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url('images/background.jpg'); /* Ensure this path is correct */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Keeps background static when scrolling */
+    color: white; /* Ensures readability on dark backgrounds */
+}
+
+/* Header Styles */
+header {
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background for readability */
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+.github-projects {
+    padding: 50px 20px;
+    background: rgba(0, 0, 0, 0.6);
+    margin: 20px auto;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 1000px;
+    text-align: center;
+}
+
+.github-projects h2 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #fff;  /* THIS IS TITLE */
+}
+
+.project-card {
+    background: #f9f6f6;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+}
+
+.project-card h3 {
+    font-size: 24px;
+    color: #4caf50; /* Ensure text is visible */
+}
+
+.project-card p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #ccc;
+}
+
+.project-card a {
+    color: #4CAF50;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.project-card a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: white; /* Ensure links are visible */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styles */
+.section {
+    padding: 50px 20px;
+    background: rgba(0, 0, 0, 0.6); /* Adds contrast for readability */
+    margin: 20px auto;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 1000px;
+}
+
+/* Headings */
+h2 {
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+/* Paragraphs */
+p {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/* Gallery Styles */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 150px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery img:hover {
+    transform: scale(1.5);
+}
+
+/* Resume Button */
+#resume a {
+    font-size: 1.7rem;
+    font-weight: 800;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#resume a:hover {
+    background-color: #0056b3;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    font-weight: 700;
+}
